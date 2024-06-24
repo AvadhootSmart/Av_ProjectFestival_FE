@@ -1,0 +1,11 @@
+export default function Pager(props) {
+    return (
+        <>
+            <div className="flex px-10 gap-2 items-center text-white font-[Poppins]">
+                <div>#01</div>
+                <div className="w-[25%] h-1 bg-white rounded-full"></div>
+                <div>content</div>
+            </div>
+        </>
+    );
+}
