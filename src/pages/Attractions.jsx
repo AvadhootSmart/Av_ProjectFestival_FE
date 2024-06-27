@@ -13,7 +13,7 @@ export default function Attractions() {
                 </div>
                 <div className="flex justify-center relative p-8">
                     <div className="h-[50vh] w-[50vh] border-black border-2 rounded-[20rem] flex flex-col justify-center items-center text-center">
-                        <h1 className = "font-bold uppercase text-sm">Top artists</h1>
+                        <h1 className="font-bold uppercase text-sm">Top artists</h1>
 
                         <p className="text-[0.8rem] mt-2 w-[80%]">
                             Enjoy live performances from renowned musicians and djs across
@@ -21,14 +21,16 @@ export default function Attractions() {
                         </p>
                     </div>
                     <div className="h-[50vh] -translate-x-6  w-[50vh] border-black border-2 rounded-[20rem] flex flex-col bg-zinc-200 justify-center items-center text-center">
-                        <h1 className = "font-bold uppercase text-sm">Immersive art</h1>
+                        <h1 className="font-bold uppercase text-sm">Immersive art</h1>
                         <p className="text-[0.8rem] mt-2 w-[80%]">
                             Explore captivating art installations and interactive experiences
                         </p>
                     </div>
                     <div className="h-[50vh] -translate-x-10  w-[50vh] border-black border-2 rounded-[20rem] bg-zinc-200 flex flex-col justify-center items-center text-center">
-                        <h1 className = "font-bold uppercase text-sm">Gourmet food</h1>
-                        <p className="text-[0.8rem] mt-2 w-[80%]">Savor a diverse array of food and beverages from top vendors</p>
+                        <h1 className="font-bold uppercase text-sm">Gourmet food</h1>
+                        <p className="text-[0.8rem] mt-2 w-[80%]">
+                            Savor a diverse array of food and beverages from top vendors
+                        </p>
                     </div>
                 </div>
             </div>
